@@ -34,3 +34,33 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+-------------------------------------------------------------------------
+
+## Project Structure 
+
+		- app
+			- globals.css
+            - layout.tsx
+			- page.jsx
+            - components 
+				- button.tsx
+				- label.tsx
+				- input.tsx
+                - Post.jsx
+			- lib 
+				- utils.tsx
+                - prisma.js
+			- auth.tsx
+			- dashboard
+                - page.tsx
+                - page.module.css
+            - organisation 
+                - page.tsx
+			- person 
+                - page.tsx
+			- projects 
+                - page.tsx
+			- _user # private folder
+                - page.tsx
