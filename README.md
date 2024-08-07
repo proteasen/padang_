@@ -60,7 +60,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
                 - page.tsx
 			- person 
                 - page.tsx
-			- projects 
+			- validate 
                 - page.tsx
 			- _user # private folder
                 - page.tsx
