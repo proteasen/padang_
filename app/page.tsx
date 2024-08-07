@@ -19,7 +19,7 @@ export default function Home() {
         <h1 className="text-3xl font-semibold text-center"> Login </h1>
         <p className="mt-2 text-m text-black-400 text-center"> 
           {''}
-          Hi there! Welcome to Padang's 'padang'.
+          Hi there! Welcome to Padang&apos;s &apos;padang&apos;.
         </p>
      
         <form>
