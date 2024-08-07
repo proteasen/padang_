@@ -11,6 +11,8 @@ export default function Home() {
         <img className="w-1/2 h-auto rounded-lg shadow-lg"
           src="/padanglogowobg.png" 
           alt="Padang & Co logo"
+          srcSet="image-small.jpg 480w, image-medium.jpg 800w, image-large.jpg 1200w"
+          sizes="(max-width: 600px) 480px, (max-width: 1200px) 800px, 1200px"
         />
         <p className="text-lg mt-4 text-center">
         </p>
