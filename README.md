@@ -43,12 +43,17 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 		- app
 			- globals.css
             - layout.tsx
-			- page.jsx
+			- page.jsx # login page, authenticated by email/pw and Google account
+			- user_policies
             - components 
 				- button.tsx
 				- label.tsx
 				- input.tsx
                 - Post.jsx
+			- api
+				- auth
+					- [kindeAuth]
+						- route.js
 			- lib 
 				- utils.tsx
                 - prisma.js
@@ -62,5 +67,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
                 - page.tsx
 			- validate 
                 - page.tsx
+			- visualise 
+				- page.tsx
 			- _user # private folder
                 - page.tsx
